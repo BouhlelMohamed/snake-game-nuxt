@@ -1,11 +1,13 @@
 <template>
   <v-row justify="center" align="center">
-    <SnakePart />
+    <Background />
+    <Snake style="position: absolute" />
   </v-row>
 </template>
 <script>
-import SnakePart from '~/components/Snake/SnakePart'
+import Background from '~/components/Background/Background'
+import Snake from '~/components/Snake/Snake'
 export default {
-  components: { SnakePart }
+  components: { Snake, Background }
 }
 </script>
